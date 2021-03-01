@@ -1,6 +1,7 @@
 import java.util.Scanner;
+
 public class Pengurangan {
-    void pengurangan(){
+    void pengurangan() {
         int i, j, b, k;
         int matriks1[][] = new int[10][10];
         int matriks2[][] = new int[10][10];
@@ -29,10 +30,11 @@ public class Pengurangan {
         System.out.println("Hasil pengurangan matriks: ");
         for (i = 0; i < b; i++) {
             for (j = 0; j < k; j++) {
-                hasil[i][j] = matriks1[i][j] - matriks2[i][j];  /* sama dengan penjumlahan tetapi hanaya simbol operasinya yang membedakn  */
+                hasil[i][j] = matriks1[i][j]
+                        - matriks2[i][j]; /* sama dengan penjumlahan tetapi hanaya simbol operasinya yang membedakn */
                 System.out.print(hasil[i][j] + "\t");
             }
             System.out.println();
         }
-    }  
+    }
 }
